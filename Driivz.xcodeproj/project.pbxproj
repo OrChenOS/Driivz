@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		FD50E59529D8AD100043B9D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E59429D8AD100043B9D8 /* AppDelegate.swift */; };
 		FD50E59729D8AD100043B9D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E59629D8AD100043B9D8 /* SceneDelegate.swift */; };
-		FD50E59929D8AD100043B9D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E59829D8AD100043B9D8 /* ViewController.swift */; };
 		FD50E59C29D8AD100043B9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD50E59A29D8AD100043B9D8 /* Main.storyboard */; };
 		FD50E59E29D8AD120043B9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD50E59D29D8AD120043B9D8 /* Assets.xcassets */; };
 		FD50E5A129D8AD120043B9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD50E59F29D8AD120043B9D8 /* LaunchScreen.storyboard */; };
+		FD50E5A929D8B1270043B9D8 /* NasaNewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E5A829D8B1270043B9D8 /* NasaNewsFeedViewController.swift */; };
+		FD50E5AC29D8B3B50043B9D8 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E5AA29D8B3B50043B9D8 /* ArticleTableViewCell.swift */; };
+		FD50E5AD29D8B3B50043B9D8 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD50E5AB29D8B3B50043B9D8 /* ArticleTableViewCell.xib */; };
+		FD50E5B029D8B6610043B9D8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FD50E5AF29D8B6610043B9D8 /* Kingfisher */; };
+		FD50E5B329D8B69A0043B9D8 /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = FD50E5B229D8B69A0043B9D8 /* XMLCoder */; };
+		FD50E5B529D8B7000043B9D8 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E5B429D8B7000043B9D8 /* Article.swift */; };
+		FD50E5B729D8B71A0043B9D8 /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E5B629D8B71A0043B9D8 /* RSSFeed.swift */; };
+		FD50E5B929D8B7400043B9D8 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E5B829D8B7400043B9D8 /* ArticleViewModel.swift */; };
+		FD50E5C029D964400043B9D8 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E5BF29D964400043B9D8 /* ArticleDetailsViewController.swift */; };
+		FD50E5C229D972350043B9D8 /* ArticleDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E5C129D972350043B9D8 /* ArticleDetailsViewModel.swift */; };
+		FD50E5C629D97AE00043B9D8 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50E5C529D97AE00043B9D8 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD50E59129D8AD100043B9D8 /* Driivz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Driivz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD50E59429D8AD100043B9D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD50E59629D8AD100043B9D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD50E59829D8AD100043B9D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD50E59B29D8AD100043B9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD50E59D29D8AD120043B9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD50E5A029D8AD120043B9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD50E5A229D8AD120043B9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD50E5A829D8B1270043B9D8 /* NasaNewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaNewsFeedViewController.swift; sourceTree = "<group>"; };
+		FD50E5AA29D8B3B50043B9D8 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		FD50E5AB29D8B3B50043B9D8 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		FD50E5B429D8B7000043B9D8 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FD50E5B629D8B71A0043B9D8 /* RSSFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeed.swift; sourceTree = "<group>"; };
+		FD50E5B829D8B7400043B9D8 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		FD50E5BF29D964400043B9D8 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
+		FD50E5C129D972350043B9D8 /* ArticleDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewModel.swift; sourceTree = "<group>"; };
+		FD50E5C529D97AE00043B9D8 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD50E5B329D8B69A0043B9D8 /* XMLCoder in Frameworks */,
+				FD50E5B029D8B6610043B9D8 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,71 @@
 		FD50E59329D8AD100043B9D8 /* Driivz */ = {
 			isa = PBXGroup;
 			children = (
+				FD50E5BC29D959270043B9D8 /* Model */,
+				FD50E5BB29D959100043B9D8 /* Controller */,
+				FD50E5BA29D958EA0043B9D8 /* ViewModel */,
+				FD50E5BD29D95B370043B9D8 /* View */,
+				FD50E5C429D97AA30043B9D8 /* Extensions */,
 				FD50E59429D8AD100043B9D8 /* AppDelegate.swift */,
 				FD50E59629D8AD100043B9D8 /* SceneDelegate.swift */,
-				FD50E59829D8AD100043B9D8 /* ViewController.swift */,
 				FD50E59A29D8AD100043B9D8 /* Main.storyboard */,
 				FD50E59D29D8AD120043B9D8 /* Assets.xcassets */,
 				FD50E59F29D8AD120043B9D8 /* LaunchScreen.storyboard */,
 				FD50E5A229D8AD120043B9D8 /* Info.plist */,
 			);
 			path = Driivz;
+			sourceTree = "<group>";
+		};
+		FD50E5BA29D958EA0043B9D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD50E5B829D8B7400043B9D8 /* ArticleViewModel.swift */,
+				FD50E5C129D972350043B9D8 /* ArticleDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD50E5BB29D959100043B9D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD50E5A829D8B1270043B9D8 /* NasaNewsFeedViewController.swift */,
+				FD50E5BF29D964400043B9D8 /* ArticleDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD50E5BC29D959270043B9D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD50E5B429D8B7000043B9D8 /* Article.swift */,
+				FD50E5B629D8B71A0043B9D8 /* RSSFeed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD50E5BD29D95B370043B9D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD50E5BE29D95B460043B9D8 /* ArticleTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD50E5BE29D95B460043B9D8 /* ArticleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FD50E5AA29D8B3B50043B9D8 /* ArticleTableViewCell.swift */,
+				FD50E5AB29D8B3B50043B9D8 /* ArticleTableViewCell.xib */,
+			);
+			path = ArticleTableViewCell;
+			sourceTree = "<group>";
+		};
+		FD50E5C429D97AA30043B9D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD50E5C529D97AE00043B9D8 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +159,10 @@
 			dependencies = (
 			);
 			name = Driivz;
+			packageProductDependencies = (
+				FD50E5AF29D8B6610043B9D8 /* Kingfisher */,
+				FD50E5B229D8B69A0043B9D8 /* XMLCoder */,
+			);
 			productName = Driivz;
 			productReference = FD50E59129D8AD100043B9D8 /* Driivz.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +191,10 @@
 				Base,
 			);
 			mainGroup = FD50E58829D8AD100043B9D8;
+			packageReferences = (
+				FD50E5AE29D8B6610043B9D8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FD50E5B129D8B69A0043B9D8 /* XCRemoteSwiftPackageReference "XMLCoder" */,
+			);
 			productRefGroup = FD50E59229D8AD100043B9D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD50E5AD29D8B3B50043B9D8 /* ArticleTableViewCell.xib in Resources */,
 				FD50E5A129D8AD120043B9D8 /* LaunchScreen.storyboard in Resources */,
 				FD50E59E29D8AD120043B9D8 /* Assets.xcassets in Resources */,
 				FD50E59C29D8AD100043B9D8 /* Main.storyboard in Resources */,
@@ -138,9 +223,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD50E59929D8AD100043B9D8 /* ViewController.swift in Sources */,
+				FD50E5B729D8B71A0043B9D8 /* RSSFeed.swift in Sources */,
+				FD50E5C229D972350043B9D8 /* ArticleDetailsViewModel.swift in Sources */,
+				FD50E5AC29D8B3B50043B9D8 /* ArticleTableViewCell.swift in Sources */,
+				FD50E5A929D8B1270043B9D8 /* NasaNewsFeedViewController.swift in Sources */,
 				FD50E59529D8AD100043B9D8 /* AppDelegate.swift in Sources */,
 				FD50E59729D8AD100043B9D8 /* SceneDelegate.swift in Sources */,
+				FD50E5B929D8B7400043B9D8 /* ArticleViewModel.swift in Sources */,
+				FD50E5C629D97AE00043B9D8 /* UIImage+Extension.swift in Sources */,
+				FD50E5C029D964400043B9D8 /* ArticleDetailsViewController.swift in Sources */,
+				FD50E5B529D8B7000043B9D8 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +450,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD50E5AE29D8B6610043B9D8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		FD50E5B129D8B69A0043B9D8 /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD50E5AF29D8B6610043B9D8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD50E5AE29D8B6610043B9D8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FD50E5B229D8B69A0043B9D8 /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD50E5B129D8B69A0043B9D8 /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD50E58929D8AD100043B9D8 /* Project object */;
 }
