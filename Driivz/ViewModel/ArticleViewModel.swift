@@ -33,10 +33,10 @@ class ArticleViewModel {
             do {
                 let rssFeed = try decoder.decode(RSSFeed.self, from: data)
                 self.title = rssFeed.channel.title
-                for item in rssFeed.channel.item {
-                    let article = Article(title: item.title, description: item.description, imageUrl: item.enclosure.url)
-                    self.articles.append(article)
+                let articales = rssFeed.channel.item.map{
+                    return Article(title: $0.title, description: $0.description, imageUrl: $0.enclosure.url)
                 }
+                self.articles = articales
                 self.delegate?.didFinishFetchingArticles()
             } catch {
                 print("Error decoding RSS feed: \(error.localizedDescription)")
